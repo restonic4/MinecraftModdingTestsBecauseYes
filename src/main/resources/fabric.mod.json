@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "tests",
+  "version": "${version}",
+  "name": "Tests",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/Marcos/Tests"
+  },
+  "license": "MIT",
+  "icon": "assets/tests/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.restonic4.tests.client.TestsClient"
+    ],
+    "main": [
+      "com.restonic4.tests.Tests"
+    ]
+  },
+  "mixins": [
+    "tests.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
