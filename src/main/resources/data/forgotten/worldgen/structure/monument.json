@@ -1,7 +1,7 @@
 {
   "type": "minecraft:jigsaw",
 
-  "start_pool": "forgotten:monument/monument",
+  "start_pool": "forgotten:monument",
 
   "size": 1,
 
