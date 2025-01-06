@@ -17,6 +17,9 @@
     ],
     "main": [
       "com.restonic4.tests.Tests"
+    ],
+    "server": [
+      "com.restonic4.tests.TestsServer"
     ]
   },
   "mixins": [
